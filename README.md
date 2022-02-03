@@ -20,7 +20,9 @@ He plans on using these insights to help him decide whether he should expand the
 
 Danny has shared with you 3 key datasets for this case study:
 • sales
+
 • menu
+
 • members
 
 <img src="https://user-images.githubusercontent.com/80718915/152446767-9f7a2447-e0ca-4bc2-8573-5cee008fcba1.png">
