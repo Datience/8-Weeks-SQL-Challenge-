@@ -1,5 +1,5 @@
-# 8 Weeks SQL Challenge
+# 📣📣 8 Weeks SQL Challenge
 
-# Tabke of Contents 
+# 📖 Table of Contents 
 
-# Cast Study #1: Danny's Diner 
+# 🍽 Case Study #1: Danny's Diner 
