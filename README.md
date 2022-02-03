@@ -23,4 +23,4 @@ Danny has shared with you 3 key datasets for this case study:
 • menu
 • members
 
-<img src="https://user-images.githubusercontent.com/80718915/152446767-9f7a2447-e0ca-4bc2-8573-5cee008fcba1.png" alt="Image" width="300" height="320">
+<img src="https://user-images.githubusercontent.com/80718915/152446767-9f7a2447-e0ca-4bc2-8573-5cee008fcba1.png">
