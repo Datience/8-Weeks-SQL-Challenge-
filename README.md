@@ -8,7 +8,9 @@ This repository contains the solution for the cases studies in the #8WeekSQLChal
 
 ## Case Study #1: Danny's Diner 
 
-![image](https://user-images.githubusercontent.com/80718915/152446505-6e631f0e-90cd-4fa7-8747-c0b63d4d2d51.png)
+<img src="https://user-images.githubusercontent.com/81607668/127727503-9d9e7a25-93cb-4f95-8bd0-20b87cb4b459.png" alt="Image" width="500" height="520">
+
+<img src="https://user-images.githubusercontent.com/80718915/152446505-6e631f0e-90cd-4fa7-8747-c0b63d4d2d51.png" alt="Image" width="500" height="520">
 
 ### Problem Statement 
 
@@ -23,4 +25,4 @@ Danny has shared with you 3 key datasets for this case study:
 • menu
 • members
 
-https://user-images.githubusercontent.com/81607668/127271130-dca9aedd-4ca9-4ed8-b6ec-1e1920dca4a8.png
+![image](https://user-images.githubusercontent.com/80718915/152446767-9f7a2447-e0ca-4bc2-8573-5cee008fcba1.png)
