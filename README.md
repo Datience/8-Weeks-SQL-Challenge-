@@ -18,7 +18,7 @@ He plans on using these insights to help him decide whether he should expand the
 
 ### Entity Relationship Diagram & Dataset
 
-Danny has shared with you 3 key datasets for this case study:
+Danny has shared 3 key datasets for this case study:
 
 • sales
 
