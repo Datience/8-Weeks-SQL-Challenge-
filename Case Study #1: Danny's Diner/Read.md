@@ -44,4 +44,4 @@ Each of the following case study questions can be answered using a single SQL st
 
 • In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 
-Link to the case challenge: [https://8weeksqlchallenge.com/case-study-1/](Case Challenge #1)
+Link to the case challenge: [Case Challenge #1](https://8weeksqlchallenge.com/case-study-1/)
