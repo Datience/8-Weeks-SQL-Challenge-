@@ -5,7 +5,7 @@ This repository contains the solution for the cases studies in the #8WeekSQLChal
 # 📖 Table of Contents 
 
 • [Case Study #1: Danny's Diner](#case-study-1-dannys-diner)
-• [Case Study #2: Pizza Runner]
+• [Case Study #2: Pizza Runner](#case-study-2-pizza-runner)
 
 ## Case Study #1: Danny's Diner 
 
