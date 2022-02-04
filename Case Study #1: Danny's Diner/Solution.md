@@ -11,7 +11,7 @@ FROM sales s
 left join menu m on m.product_id = s.product_id
 group by customer_id;
 ```
-![image](https://user-images.githubusercontent.com/80718915/152450993-b9d66580-32f6-4c57-823a-2b9fe9a1aacf.png)
+(https://user-images.githubusercontent.com/80718915/152450993-b9d66580-32f6-4c57-823a-2b9fe9a1aacf.png)
 
 **Answer**: Customer A spent $76, Customer B spent $74 and Customer C spent $36
 
