@@ -27,11 +27,11 @@ Danny has shared 3 key datasets for this case study:
 
 • members
 
-<img src="https://user-images.githubusercontent.com/80718915/152446767-9f7a2447-e0ca-4bc2-8573-5cee008fcba1.png" alt="Image" width="500" height="520">
+<img src="https://user-images.githubusercontent.com/80718915/152446767-9f7a2447-e0ca-4bc2-8573-5cee008fcba1.png">
 
 ## Case Study #2: Pizza Runner
 
-![image](https://user-images.githubusercontent.com/80718915/152455319-e894bc25-ca78-4f63-afbe-5d8a194b727d.png)
+<img src ="https://user-images.githubusercontent.com/80718915/152455319-e894bc25-ca78-4f63-afbe-5d8a194b727d.png" alt="Image" width="500" height="520">
 
 ### Problem Statement 
 
