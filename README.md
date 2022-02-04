@@ -27,7 +27,7 @@ Danny has shared 3 key datasets for this case study:
 
 • members
 
-<img src="https://user-images.githubusercontent.com/80718915/152446767-9f7a2447-e0ca-4bc2-8573-5cee008fcba1.png">
+<img src="https://user-images.githubusercontent.com/80718915/152446767-9f7a2447-e0ca-4bc2-8573-5cee008fcba1.png" alt="Image" width="500" height="520">
 
 ## Case Study #2: Pizza Runner
 
@@ -41,4 +41,4 @@ He has prepared for us an entity relationship diagram of his database design but
 
 ### Entity Relationship Diagram & Dataset
 
-<img src = "https://user-images.githubusercontent.com/80718915/152455634-42280069-4891-4a88-b6bd-5a6232de5c0f.png"  alt="Image" width="500" height="520">
+<img src = "https://user-images.githubusercontent.com/80718915/152455634-42280069-4891-4a88-b6bd-5a6232de5c0f.png">
