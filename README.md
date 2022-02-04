@@ -5,6 +5,7 @@ This repository contains the solution for the cases studies in the #8WeekSQLChal
 # 📖 Table of Contents 
 
 • [Case Study #1: Danny's Diner](#case-study-1-dannys-diner)
+• [Case Study #2: Pizza Runner]
 
 ## Case Study #1: Danny's Diner 
 
@@ -27,3 +28,17 @@ Danny has shared 3 key datasets for this case study:
 • members
 
 <img src="https://user-images.githubusercontent.com/80718915/152446767-9f7a2447-e0ca-4bc2-8573-5cee008fcba1.png">
+
+## Case Study #2: Pizza Runner
+
+![image](https://user-images.githubusercontent.com/80718915/152455319-e894bc25-ca78-4f63-afbe-5d8a194b727d.png)
+
+### Problem Statement 
+
+Danny had a few years of experience as a data scientist - he was very aware that data collection was going to be critical for his business’ growth.
+
+He has prepared for us an entity relationship diagram of his database design but requires further assistance to clean his data and apply some basic calculations so he can better direct his runners and optimise Pizza Runner’s operations.
+
+### Entity Relationship Diagram & Dataset
+
+![image](https://user-images.githubusercontent.com/80718915/152455634-42280069-4891-4a88-b6bd-5a6232de5c0f.png)
