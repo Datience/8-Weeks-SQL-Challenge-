@@ -45,3 +45,18 @@ group by t.customer_id,  t.product_name;
 ```
 
 **Answer**: Customer A ordered curry and sushi, Customer B ordered curry and Customer C ordered ramen for the first time from the menu
+
+
+### 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
+
+```sql
+SELECT TOP 1
+product_name
+, count (product_name) as times
+FROM sales s
+inner JOIN menu m on m.product_id = s.product_id
+group by product_name
+order by times DESC
+```
+
+**Answer**: Ramen was the most purchased item on the menu and was purchased 8 times by all customers.
