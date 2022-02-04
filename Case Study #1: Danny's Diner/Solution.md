@@ -24,6 +24,7 @@ customer_id
 FROM sales s 
 group by customer_id
 ```
+![image](https://user-images.githubusercontent.com/80718915/152452864-9dc0f3e8-0568-4a04-8980-8fb92a4f2cc1.png)
 
 **Answer**: Customer A visited 4 times, Customer B visited 6 times and Customer C visited 2 times
 
@@ -43,6 +44,7 @@ LEFT JOIN menu m on m.product_id = s.product_id) t
 WHERE t.ranking = 1
 group by t.customer_id,  t.product_name;
 ```
+![image](https://user-images.githubusercontent.com/80718915/152452924-98963e30-159c-4770-b6ee-512ea79c7d88.png)
 
 **Answer**: Customer A ordered curry and sushi, Customer B ordered curry and Customer C ordered ramen for the first time from the menu
 
