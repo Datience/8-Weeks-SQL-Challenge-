@@ -60,5 +60,6 @@ inner JOIN menu m on m.product_id = s.product_id
 group by product_name
 order by times DESC
 ```
+![image](https://user-images.githubusercontent.com/80718915/152453052-116b6bb1-3db6-4e30-83e5-c8ddc83817cd.png)
 
 **Answer**: Ramen was the most purchased item on the menu and was purchased 8 times by all customers.
