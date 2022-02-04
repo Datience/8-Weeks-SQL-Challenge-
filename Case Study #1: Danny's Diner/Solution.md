@@ -78,7 +78,6 @@ JOIN sales s on s.product_id = m.product_id
 group by customer_id, product_name)t
 WHERE t.rank = 1
 ```
-
 ![image](https://user-images.githubusercontent.com/80718915/152453286-ff413e83-f241-4766-95d1-eb5fec59068a.png)
 
 **Answer**: Customer A most popular item was Ramen, Customer B most popular item was Ramen, curry and sushi, Customer C most popular item was Ramen
@@ -100,6 +99,8 @@ join members mb on mb.customer_id = s.customer_id
 WHERE s.order_date >= mb.join_date)t 
 WHERE t.rk = 1;
 ```
+![image](https://user-images.githubusercontent.com/80718915/152454185-31ee5639-beea-432f-adce-cccdd1101a00.png)
+
 **Answer**: Customer A ordered curry and Customer B order sushi after they became a member. 
 
 ### 7. Which item was purchased just before the customer became a member?
