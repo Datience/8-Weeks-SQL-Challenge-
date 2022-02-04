@@ -36,7 +36,8 @@ SELECT
 customer_id
 , m.product_id
 , m.product_name
-,dense_rank() OVER (partition BY s.customer_id order by s.order_date) as ranking -- the reason behind using dense_rank() over row_number and rank:
+,dense_rank() OVER (partition BY s.customer_id order by s.order_date) as ranking 
+-- the reason behind using dense_rank() over row_number and rank is because dense_rank assigns does not skip for similar values and it assigns the rank number to each row in a partition, in this case order.date
 FROM sales s
 LEFT JOIN menu m on m.product_id = s.product_id) t
 WHERE t.ranking = 1
