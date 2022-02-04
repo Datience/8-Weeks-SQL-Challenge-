@@ -193,4 +193,4 @@ group by customer;
 ```
 ![image](https://user-images.githubusercontent.com/80718915/152454026-780b4706-f2a5-4078-9591-845d8de70de9.png)
 
-**Answer**: customer A has 1370 points and Customer B had 820 points at the end of January
+**Answer**: Customer A has 1370 points and Customer B had 820 points at the end of January
