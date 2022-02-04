@@ -140,8 +140,7 @@ group by s.customer_id;
 
 **Answer**: Customer A purchased 2 items in total and spent $25 before becoming a member. Customer B purchased 2 items in total and spent $40 before becoming a member. 
 
--- 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
--- sushi has 20 points for each $ spent
+### 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have? nt
 ```sql
 SELECT customer_id, sum(points) as points from(
 SELECT 
