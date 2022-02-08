@@ -169,4 +169,152 @@ FROM #customer_orders
 ```
 ![image](https://user-images.githubusercontent.com/80718915/152913500-7a80faf1-801f-4366-9798-5d5176b62c2b.png)
 
-**Answer:** 14 pizzas were ordered
+**Answer**: 14 pizzas were ordered
+
+### 2. How many unique customer orders were made?
+
+```sql 
+SELECT 
+COUNT (distinct order_id ) as ordered_pizza
+FROM #customer_orders
+```
+![image](https://user-images.githubusercontent.com/80718915/152913627-5f10315b-ef7b-4d20-b518-d327ff5b933f.png)
+
+**Answer**: 10 unique customer orders were made
+
+### 3. How many successful orders were delivered by each runner?
+
+```sql
+SELECT 
+runner_id
+,count (order_id) as runner_count
+FROM #runner_orders
+where cancellation not like '%cancellation%'
+group by runner_id
+```
+![image](https://user-images.githubusercontent.com/80718915/152913711-0f93b23a-2e6f-4ad1-8c8b-c2e192d2acc8.png)
+
+**Answer**: Runner one delivered 4 pizzas successfully, Runner 2 delivered 3 pizzas successfully and Runner 3 delivered 1 pizzas successfully
+
+### 4. How many of each type of pizza was delivered?
+
+```sql
+SELECT 
+cast (p.pizza_name as NVARCHAR(100)) as pizza_name -- was having issues with the data type 
+,count(p.pizza_id) as count
+FROM #customer_orders c
+join pizza_names p on p.pizza_id = c.pizza_id
+join #runner_orders r on r.order_id = c.order_id
+where cancellation not like '%cancellation%'
+group by cast (p.pizza_name as NVARCHAR(100)); 
+```
+![image](https://user-images.githubusercontent.com/80718915/152913800-2d273a81-6c89-4728-bd14-7d86324a1b55.png)
+
+**Answer**: 9 Meatlovers and 3 Vegetarians were delivered 
+
+### 5. How many Vegetarian and Meatlovers were ordered by each customer?
+
+```sql
+SELECT 
+customer_id
+,cast(p.pizza_name as nvarchar(100)) as pizza_name
+,count (cast(p.pizza_name as nvarchar(100))) as count
+FROM #customer_orders c
+join pizza_names p on c.pizza_id = p.pizza_id
+group by customer_id, cast (p.pizza_name as NVARCHAR(100));
+```
+![image](https://user-images.githubusercontent.com/80718915/152913915-f786b9af-b8b6-446c-b340-90267b935d44.png)
+
+**Answer**:
+-- Customer 101 ordered 2 Meatlovers and 1 vegetarian 
+-- Customer 102 ordered 2 Meatlovers and 1 vegetarian 
+-- Customer 103 ordered 3 Meatlovers and 1 vegetarian 
+-- Customer 104 ordered 3 Meatlovers 
+-- Customer 105 ordered 1 vegetarian 
+
+### 6. What was the maximum number of pizzas delivered in a single order?
+
+```sql
+-- DROP TABLE IF EXISTS #temp
+SELECT 
+c.order_id
+, count(c.pizza_id) as pizza
+into #temp
+FROM #customer_orders c
+join #runner_orders r on r.order_id = c.order_id
+where cancellation not like '%cancellation%'
+group by c.order_id;
+
+SELECT 
+ max(pizza) as count_pizza
+FROM #temp
+```
+![image](https://user-images.githubusercontent.com/80718915/152914014-d260180c-dec7-4f75-94e9-37c7af9a982e.png)
+
+**Answer**: The maximum number of pizza delivered in a single order was 3
+
+--7. For each customer, how many delivered pizzas had at least 1 change and how many had no changes?
+
+```sql
+SELECT 
+c.customer_id
+,sum( case when c.exlusions != ' ' or c.extras != ' '  then 1 else 0 end)  as change
+,sum (case when c.exlusions = ' ' or c.extras = ' ' then 1 else 0 end) as no_change
+FROM #customer_orders c
+join #runner_orders r on r.order_id = c.order_id
+where r.cancellation not like '%cancellation%'
+group by c.customer_id
+order by c.customer_id
+```
+![image](https://user-images.githubusercontent.com/80718915/152914079-6adf251f-d757-402c-a9d1-71889a69c5bd.png)
+
+**Answer**:
+--Customer 101 and Cusomter 102 had no changes
+-- Customer 103, 104 and 105 had atleast 1 change
+
+### 8. How many pizzas were delivered that had both exclusions and extras?
+
+```sql
+SELECT count(* ) as pizza_exclu_extra
+FROM #customer_orders c
+join #runner_orders r on r.order_id = c.order_id
+where c.exlusions != ' ' 
+and c.extras !=  ' '
+and duration != 0 
+```
+![image](https://user-images.githubusercontent.com/80718915/152914183-ec8979b9-55f7-4960-8255-c90b0ed3b334.png)
+
+**Answer**: Only 1 pizza was delivered that had both exclusions and extras 
+
+### 9. What was the total volume of pizzas ordered for each hour of the day?
+
+```sql
+SELECT 
+ datepart (hour, [order_time]) as hour_of_day
+, count(order_id) as count
+FROM #customer_orders c
+group by datepart (hour, [order_time]);
+```
+![image](https://user-images.githubusercontent.com/80718915/152914255-43f5f331-dc06-4bfc-8c20-91269a52d5ce.png)
+
+**Answer**:
+-- Hours: 11, 19 had 1 count of pizza ordered 
+-- Hours: 13, 18, 21, 23 had 3 counts of pizzas ordered
+
+
+### 10.What was the volume of orders for each day of the week?
+
+```sql
+SELECT 
+ format(dateadd (day, 2, order_time), 'dddd') as week
+, count(order_id) as count
+FROM #customer_orders c
+group by format(dateadd (day, 2,order_time), 'dddd');
+```
+![image](https://user-images.githubusercontent.com/80718915/152914447-e1716a9a-9cad-4730-9d8e-9f7ede156b4b.png)
+
+**Answer**:
+-- Friday and Monday had 5 orders of pizzas
+-- Saturday had 3 orders of pizzas
+-- Sunday had 1 order of pizza
+
