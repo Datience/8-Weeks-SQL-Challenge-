@@ -226,11 +226,11 @@ group by customer_id, cast (p.pizza_name as NVARCHAR(100));
 ![image](https://user-images.githubusercontent.com/80718915/152913915-f786b9af-b8b6-446c-b340-90267b935d44.png)
 
 **Answer**:
--- Customer 101 ordered 2 Meatlovers and 1 vegetarian 
--- Customer 102 ordered 2 Meatlovers and 1 vegetarian 
--- Customer 103 ordered 3 Meatlovers and 1 vegetarian 
--- Customer 104 ordered 3 Meatlovers 
--- Customer 105 ordered 1 vegetarian 
+- Customer 101 ordered 2 Meatlovers and 1 vegetarian 
+- Customer 102 ordered 2 Meatlovers and 1 vegetarian 
+- Customer 103 ordered 3 Meatlovers and 1 vegetarian 
+- Customer 104 ordered 3 Meatlovers 
+- Customer 105 ordered 1 vegetarian 
 
 ### 6. What was the maximum number of pizzas delivered in a single order?
 
@@ -253,7 +253,7 @@ FROM #temp
 
 **Answer**: The maximum number of pizza delivered in a single order was 3
 
---7. For each customer, how many delivered pizzas had at least 1 change and how many had no changes?
+### 7. For each customer, how many delivered pizzas had at least 1 change and how many had no changes?
 
 ```sql
 SELECT 
@@ -269,8 +269,8 @@ order by c.customer_id
 ![image](https://user-images.githubusercontent.com/80718915/152914079-6adf251f-d757-402c-a9d1-71889a69c5bd.png)
 
 **Answer**:
---Customer 101 and Cusomter 102 had no changes
--- Customer 103, 104 and 105 had atleast 1 change
+- Customer 101 and Cusomter 102 had no changes
+- Customer 103, 104 and 105 had atleast 1 change
 
 ### 8. How many pizzas were delivered that had both exclusions and extras?
 
@@ -298,8 +298,8 @@ group by datepart (hour, [order_time]);
 ![image](https://user-images.githubusercontent.com/80718915/152914255-43f5f331-dc06-4bfc-8c20-91269a52d5ce.png)
 
 **Answer**:
--- Hours: 11, 19 had 1 count of pizza ordered 
--- Hours: 13, 18, 21, 23 had 3 counts of pizzas ordered
+- Hours: 11, 19 had 1 count of pizza ordered 
+- Hours: 13, 18, 21, 23 had 3 counts of pizzas ordered
 
 
 ### 10.What was the volume of orders for each day of the week?
@@ -314,7 +314,7 @@ group by format(dateadd (day, 2,order_time), 'dddd');
 ![image](https://user-images.githubusercontent.com/80718915/152914447-e1716a9a-9cad-4730-9d8e-9f7ede156b4b.png)
 
 **Answer**:
--- Friday and Monday had 5 orders of pizzas
--- Saturday had 3 orders of pizzas
--- Sunday had 1 order of pizza
+- Friday and Monday had 5 orders of pizzas
+- Saturday had 3 orders of pizzas
+- Sunday had 1 order of pizza
 
