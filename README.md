@@ -43,3 +43,17 @@ He has prepared for us an entity relationship diagram of his database design but
 ### Entity Relationship Diagram & Dataset
 
 <img src = "https://user-images.githubusercontent.com/80718915/152455634-42280069-4891-4a88-b6bd-5a6232de5c0f.png">
+
+## Case Study #3: Food Fi 
+
+![image](https://user-images.githubusercontent.com/80718915/154827251-c05f612d-e16d-4dda-bd4e-dac2fc867833.png)
+
+### Problem Statement 
+
+Danny finds a few smart friends to launch his new startup Foodie-Fi in 2020 and started selling monthly and annual subscriptions, giving their customers unlimited on-demand access to exclusive food videos from around the world!
+
+Danny created Foodie-Fi with a data driven mindset and wanted to ensure all future investment decisions and new features were decided using data. This case study focuses on using subscription style digital data to answer important business questions.
+
+### Entity Relationship Diagram & Dataset
+
+![image](https://user-images.githubusercontent.com/80718915/154827267-b630a1eb-4c05-47f8-8df3-f089a1c6242d.png)
