@@ -42,11 +42,11 @@ He has prepared for us an entity relationship diagram of his database design but
 
 ### Entity Relationship Diagram & Dataset
 
-<img src = "https://user-images.githubusercontent.com/80718915/152455634-42280069-4891-4a88-b6bd-5a6232de5c0f.png" alt="Image" width="500" height="520">
+<img src = "https://user-images.githubusercontent.com/80718915/152455634-42280069-4891-4a88-b6bd-5a6232de5c0f.png">
 
 ## Case Study #3: Food Fi 
 
-![image](https://user-images.githubusercontent.com/80718915/154827251-c05f612d-e16d-4dda-bd4e-dac2fc867833.png)
+<img src ="https://user-images.githubusercontent.com/80718915/154827251-c05f612d-e16d-4dda-bd4e-dac2fc867833.png" alt="Image" width="500" height="520">
 
 ### Problem Statement 
 
