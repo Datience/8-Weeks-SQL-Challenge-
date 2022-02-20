@@ -101,12 +101,12 @@ ORDER BY c.order_id;
 ![image](https://user-images.githubusercontent.com/80718915/154826565-f45d9b2f-3ca2-4172-871b-df5ec64478ee.png)
 
 **Answer**:
--- Runner 1’s average speed runs from 37.5 to 60
--- Runner 2’s average speed runs from 35.1 to 93.6
--- Runner 3’s average speed is 40
+- Runner 1’s average speed runs from 37.5 to 60
+- Runner 2’s average speed runs from 35.1 to 93.6
+- Runner 3’s average speed is 40
 
 
---7. What is the successful delivery percentage for each runner?
+### 7. What is the successful delivery percentage for each runner?
 
 ```sql
 SELECT runner_id
@@ -120,6 +120,6 @@ GROUP BY runner_id;
 ![image](https://user-images.githubusercontent.com/80718915/154826582-f1a924c7-064a-4690-8dd5-e61296f43e27.png)
 
 **Answer**:
--- Runner 1 was 100% successful
--- Runner 2 was 75% successful
--- Runner 3 was 50% successful
+- Runner 1 was 100% successful
+- Runner 2 was 75% successful
+- Runner 3 was 50% successful
