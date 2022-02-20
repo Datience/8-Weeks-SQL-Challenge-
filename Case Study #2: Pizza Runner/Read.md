@@ -2,6 +2,8 @@
 
 <img src ="https://user-images.githubusercontent.com/80718915/152455319-e894bc25-ca78-4f63-afbe-5d8a194b727d.png" alt="Image" width="500" height="520">
 
+*Completed all the question I could in one week, moving on to **week 3**. Will return to complete the questions not answered.
+
 ### Problem Statement 
 
 Danny had a few years of experience as a data scientist - he was very aware that data collection was going to be critical for his business’ growth.
