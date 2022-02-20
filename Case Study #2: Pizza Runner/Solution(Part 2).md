@@ -1,6 +1,6 @@
 Refer to Schema in Part I
 
---PART II. Runner and Customer Experience
+# PART II. Runner and Customer Experience
 
 
 ### 1. How many runners signed up for each 1 week period? (i.e. week starts 2021-01-01)
