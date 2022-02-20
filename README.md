@@ -8,6 +8,8 @@ This repository contains the solution for the cases studies in the #8WeekSQLChal
 
 • [Case Study #2: Pizza Runner](#case-study-2-pizza-runner)
 
+• [Case Study #3: Food Fi](#case-study-3-food-fi)
+
 ## Case Study #1: Danny's Diner 
 
 <img src="https://user-images.githubusercontent.com/81607668/127727503-9d9e7a25-93cb-4f95-8bd0-20b87cb4b459.png" alt="Image" width="500" height="520">
