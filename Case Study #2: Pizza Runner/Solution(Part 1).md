@@ -1,6 +1,5 @@
-Schema
-
 # Part I: Pizza Metrics
+Schema
 
 ```sql
 DROP TABLE IF EXISTS runners;
