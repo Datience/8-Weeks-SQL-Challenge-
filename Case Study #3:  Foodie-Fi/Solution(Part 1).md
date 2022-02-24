@@ -2708,8 +2708,8 @@ ORDER BY customer_id
 -- CUSTOMER 11     : TRIAL -> CHURN
 ```
 What stood out to me: 
-- All customer's started with a free 7-day trial and then continued to either a basic monthly or pro annual/monthly plan. 
-- We can see that Customer 2, 16 and 19 both started off with the 7-day free trial and ended up subscribing to the pro annual plan. Therefore, these 3 customers must have really liked their Foodie-Fi service.
-- Customer 11 tries the service signing up to the 7-day free trial and cancels it, whereas customer 15 signed up to the free-trial tried the pro monthly for 5 days and then cancels the servie. Therefore, these 2 customer's must have not liked the Foodie-Fie service. 
+- All customer's started with a free 7-day trial.
+- We can see that Customer 2, 16 and 19 started off with the 7-day free trial and ended up subscribing to the pro annual plan. 
+- Customer 11 tried the service signing up to the 7-day free trial and cancels it, whereas customer 15 signed up to the free-trial tried the pro monthly for 5 days and then cancelled the service
 
 
