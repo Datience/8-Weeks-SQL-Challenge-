@@ -15,7 +15,7 @@ Danny created Foodie-Fi with a data driven mindset and wanted to ensure all futu
 
 # Case Study Questions:
 
-This case study is split into an initial data understanding question before diving straight into data analysis questions before finishing with 1 single extension challenge. [*come back to challenge later]
+This case study is split into an initial data understanding question before diving straight into data analysis questions before finishing with 1 single extension challenge. [*come back to challenge later*]
 
 # A. Customer Journey
 Based off the 8 sample customers provided in the sample from the subscriptions table, write a brief description about each customer’s onboarding journey.
