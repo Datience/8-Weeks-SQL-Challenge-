@@ -84,7 +84,7 @@ Danny has shared 2 key datasets for this case study:
 
 ## Case Study #4: Data Bank
 
-<img src ="https://user-images.githubusercontent.com/80718915/156437119-10f25bc6-3717-4ffa-8ecf-9845cc277291.png" alt="Image" width="500" height="520"> )
+<img src ="https://user-images.githubusercontent.com/80718915/156437119-10f25bc6-3717-4ffa-8ecf-9845cc277291.png" alt="Image" width="500" height="520"> 
 
 ### Problem Statement 
 
