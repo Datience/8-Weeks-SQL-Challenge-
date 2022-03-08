@@ -7,7 +7,7 @@ Refer to Schema in Part I
 ```sql
 SELECT 
 c.txn_type
-,count(*) as unique_count
+, count(*) as unique_count
 , SUM(txn_amount) as total_amount
 FROM customer_transactions c
 group by c.txn_type;
