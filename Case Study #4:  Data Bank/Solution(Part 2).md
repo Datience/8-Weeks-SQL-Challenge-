@@ -2,7 +2,7 @@ Refer to Schema in Part I
 
 # B. Customer Transactions
 
-### 1.What is the unique count and total amount for each transaction type?
+### 1. What is the unique count and total amount for each transaction type?
 
 ```sql
 SELECT 
