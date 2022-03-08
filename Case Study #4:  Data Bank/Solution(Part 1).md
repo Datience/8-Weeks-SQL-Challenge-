@@ -9411,15 +9411,16 @@ SELECT * FROM (VALUES
 
 # A. Customer Nodes Exploration
 
-### 1.How many unique nodes are there on the Data Bank system?
+### 1. How many unique nodes are there on the Data Bank system?
 
 ```sql
 SELECT 
 COUNT (DISTINCT node_id) AS no_of_unique_nodes
 FROM customer_nodes
 ```
+![image](https://user-images.githubusercontent.com/80718915/157164491-e59bd275-024c-42ad-9586-ec2aaa58bb89.png)
 
-### 2.What is the number of nodes per region?
+### 2. What is the number of nodes per region?
 
 ```sql
 SELECT
@@ -9431,7 +9432,9 @@ left join regions r on r.region_id = c.region_id
 GROUP BY r.region_name, c.region_id
 ORDER BY no_of_nodes desc;
 ```
-### 3.How many customers are allocated to each region?
+![image](https://user-images.githubusercontent.com/80718915/157164450-dd62883e-1350-4050-b575-7d9c9bded2f5.png)
+
+### 3. How many customers are allocated to each region?
 
 ```sql
 SELECT 
@@ -9442,7 +9445,9 @@ FROM customer_nodes c
 left join regions r on r.region_id = c.region_id
 GROUP BY r.region_name,c.region_id;
 ```
-### 4.How many days on average are customers reallocated to a different node?
+![image](https://user-images.githubusercontent.com/80718915/157164396-32fe636c-8656-495e-8b43-4dd2b79fd5a6.png)
+
+### 4. How many days on average are customers reallocated to a different node?
 
 ```sql
 SELECT  AVG(sum_date_diff) AS avg_days_reallocation from (
@@ -9459,10 +9464,12 @@ group by customer_id, node_id, start_date, end_date
 group by customer_id, node_id
 ) as S 
 ```
-Answer: On average, the customer took 23 days to reallocate to a different node. 
+![image](https://user-images.githubusercontent.com/80718915/157164340-6eff21e5-57dd-4712-a83e-65d20f2cd6a4.png)
+
+**Answer**: On average, the customer took 23 days to reallocate to a different node. 
 
 
-### 5.What is the median, 80th and 95th percentile for this same reallocation days metric for each region?
+### 5. What is the median, 80th and 95th percentile for this same reallocation days metric for each region?
 ```sql
 SELECT DISTINCT region_id
 , region_name
@@ -9495,3 +9502,5 @@ GROUP BY customer_id, node_id, start_date, end_date, c.region_id, region_name
 GROUP BY customer_id, node_id, region_id, region_name
 ) as S ;
 ```
+![image](https://user-images.githubusercontent.com/80718915/157164294-fe8240c7-fa3f-4feb-8d23-d533d7d38000.png)
+
