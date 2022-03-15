@@ -12,7 +12,7 @@ This repository contains the solution for the cases studies in the #8WeekSQLChal
 
 • [Case Study #4: Data Bank](#case-study-4-data-bank)
 
-• [Case Study #5: Data Mart](#case-study-5---data-mart)
+• [Case Study #5: Data Mart](#case-study-5-data-mart)
 
 ## Case Study #1: Danny's Diner 
 
@@ -114,7 +114,7 @@ Danny has shared 3 key datasets for this case study:
 
 ![image](https://user-images.githubusercontent.com/80718915/156437363-e5de7afa-f43b-4b1f-bb21-b74febb0d266.png)
 
-## Case Study #5 - Data Mart
+## Case Study #5: Data Mart
 
 <img src ="https://user-images.githubusercontent.com/80718915/158301611-6851922f-b0fe-4ac5-ad33-d271a9e19592.png" alt="Image" width="500" height="520"> 
 
