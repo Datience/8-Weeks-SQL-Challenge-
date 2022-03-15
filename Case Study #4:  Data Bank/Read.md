@@ -45,4 +45,4 @@ The following case study questions include some general data exploration analysi
 4. What is the closing balance for each customer at the end of the month?
 5. What is the percentage of customers who increase their closing balance by more than 5%?
 
-[Case Challenge #4](https://8weeksqlchallenge.com/case-study-4/)
+Link to the case challenge: [Case Challenge #4](https://8weeksqlchallenge.com/case-study-4/)
