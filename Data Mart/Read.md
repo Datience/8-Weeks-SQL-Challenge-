@@ -44,7 +44,6 @@ In a single query, perform the following operations and generate a new table in 
 5. Add a new column called age_band after the original segment column using the following mapping on the number inside the segment value
 
 segment	| age_band
----
 1	Young | Adults
 2	Middle | Aged
 3 or 4	| Retirees
@@ -52,7 +51,6 @@ segment	| age_band
 6. Add a new demographic column using the following mapping for the first letter in the segment values:
 
 segment |	demographic
---------------------
 C |	Couples
 F |	Families
 
