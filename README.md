@@ -12,7 +12,7 @@ This repository contains the solution for the cases studies in the #8WeekSQLChal
 
 • [Case Study #4: Data Bank](#case-study-4-data-bank)
 
-• [Case Study #5: Data Mart](#case-study-5-data-mart)
+• [Case Study #5: Data Mart](#case-study-5---data-mart)
 
 ## Case Study #1: Danny's Diner 
 
