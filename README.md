@@ -112,3 +112,39 @@ Danny has shared 3 key datasets for this case study:
 
 ![image](https://user-images.githubusercontent.com/80718915/156437363-e5de7afa-f43b-4b1f-bb21-b74febb0d266.png)
 
+## Case Study #5 - Data Mart
+
+<img src ="https://user-images.githubusercontent.com/80718915/158301611-6851922f-b0fe-4ac5-ad33-d271a9e19592.png" alt="Image" width="500" height="520"> 
+
+### Problem Statement 
+
+Data Mart is Danny’s latest venture and after running international operations for his online supermarket that specialises in fresh produce - Danny is asking for your support to analyse his sales performance.
+
+In June 2020 - large scale supply changes were made at Data Mart. All Data Mart products now use sustainable packaging methods in every single step from the farm all the way to the customer.
+
+Danny needs your help to quantify the impact of this change on the sales performance for Data Mart and it’s separate business areas.
+
+The key business question he wants you to help him answer are the following:
+
+1. What was the quantifiable impact of the changes introduced in June 2020?
+2. Which platform, region, segment and customer types were the most impacted by this change?
+3. What can we do about future introduction of similar sustainability updates to the business to minimise impact on sales?
+
+### Entity Relationship Diagram & Dataset
+
+Danny has shared 1 key datasets for this case study:
+
+• data_mart.weekly_sales
+
+![image](https://user-images.githubusercontent.com/80718915/158301733-1cd0a5aa-01dd-4ed0-ba88-158b23ce5bbc.png)
+
+## Column Dictionary
+The columns are pretty self-explanatory based on the column names but here are some further details about the dataset:
+
+1. Data Mart has international operations using a multi-region strategy
+2. Data Mart has both, a retail and online platform in the form of a Shopify store front to serve their customers
+3. Customer segment and customer_type data relates to personal age and demographics information that is shared with Data Mart
+4. transactions is the count of unique purchases made through Data Mart and sales is the actual dollar amount of purchases
+
+Each record in the dataset is related to a specific aggregated slice of the underlying sales data rolled up into a week_date value which represents the start of the sales week.
+
