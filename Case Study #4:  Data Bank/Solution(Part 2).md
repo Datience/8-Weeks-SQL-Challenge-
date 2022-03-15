@@ -56,5 +56,9 @@ ORDER BY month;
 
 ### 4. What is the closing balance for each customer at the end of the month?
 
+*Ccome back to solve this*
+
 ### 5. What is the percentage of customers who increase their closing balance by more than 5%?
+
+*Come back to solve this*
 
