@@ -2,6 +2,8 @@
 
 This repository contains the solution for the cases studies in the #8WeekSQLChallenge hosted by @DatawithDanny. 
 
+*Working on one case study per week, if questions from a case study are not answered within a week, I will be coming back to those questions after working on all the 8 case challenges.*
+
 # 📖 Table of Contents 
 
 • [Case Study #1: Danny's Diner](#case-study-1-dannys-diner)
