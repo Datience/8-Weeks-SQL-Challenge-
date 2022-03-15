@@ -44,3 +44,5 @@ The following case study questions include some general data exploration analysi
 3. For each month - how many Data Bank customers make more than 1 deposit and either 1 purchase or 1 withdrawal in a single month?
 4. What is the closing balance for each customer at the end of the month?
 5. What is the percentage of customers who increase their closing balance by more than 5%?
+
+[Case Challenge #4](https://8weeksqlchallenge.com/case-study-4/)
