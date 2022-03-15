@@ -25,6 +25,7 @@ SELECT C.pizza_id,
 
 **Answer**: The pizza runner has made $138  so far. 
 
+*Coming back to these questions*
 ### 2. What if there was an additional $1 charge for any pizza extras?
 	--Add cheese is $1 extra
 
@@ -46,4 +47,4 @@ SELECT C.pizza_id,
 		--Total number of pizzas
 
 ### 5. If a Meat Lovers pizza was $12 and Vegetarian $10 fixed prices with no cost for extras and each runner is paid $0.30 per kilometre traveled 
-	-- how much money does Pizza Runner have left over after these deliveries?
+	-- how much money does Pizza Runner have left over after these deliveries? 
