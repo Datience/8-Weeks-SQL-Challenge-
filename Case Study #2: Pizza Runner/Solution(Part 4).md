@@ -25,7 +25,7 @@ SELECT C.pizza_id,
 
 **Answer**: The pizza runner has made $138  so far. 
 
-*Coming back to these questions*
+*Coming back to these questions:*
 ### 2. What if there was an additional $1 charge for any pizza extras?
 	--Add cheese is $1 extra
 
