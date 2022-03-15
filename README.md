@@ -12,6 +12,8 @@ This repository contains the solution for the cases studies in the #8WeekSQLChal
 
 • [Case Study #4: Data Bank](#case-study-4-data-bank)
 
+• [Case Study #5: Data Mart](#case-study-5-data-mart)
+
 ## Case Study #1: Danny's Diner 
 
 <img src="https://user-images.githubusercontent.com/81607668/127727503-9d9e7a25-93cb-4f95-8bd0-20b87cb4b459.png" alt="Image" width="500" height="520">
@@ -138,7 +140,7 @@ Danny has shared 1 key datasets for this case study:
 
 ![image](https://user-images.githubusercontent.com/80718915/158301733-1cd0a5aa-01dd-4ed0-ba88-158b23ce5bbc.png)
 
-## Column Dictionary
+### Column Dictionary
 The columns are pretty self-explanatory based on the column names but here are some further details about the dataset:
 
 1. Data Mart has international operations using a multi-region strategy
